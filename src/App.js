@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import Biscoito from './components/Biscoito';
-import Cronometro from './components/Cronometro';
-import TodoList from './components/TodoList';
-import Cabecalho from './components/Cabecalho';
+// import Biscoito from './Components/Avulsos/Biscoito';
+// import Cronometro from './Components/Avulsos/Cronometro';
+// import TodoList from './Components/Avulsos/TodoList';
+import Routs from './routes.js';
 import './style.css';
-//imports de todos os metodos
 
 
 class App extends Component {
@@ -20,7 +19,12 @@ class App extends Component {
     render() {
         return (
             <div className="container">
-                <Cabecalho />
+                <Routs />
+                {/*
+
+                -----------------------------------------------------------------------------------
+                --componentes abaixo estao comentados porem ainda estao disponiveis e funcionais.--
+                -----------------------------------------------------------------------------------
 
                 <div className="post">
                     <strong className="titulo">Biscoito da sorte</strong>
@@ -43,7 +47,7 @@ class App extends Component {
                     com seus afazeres do dia?<br />Ainda bem que desenvolvemos uma lista dinâmica
                     especialmente para voce, nela voce sera capaz de adicionar e deletar suas atividades do dia</p>
                     <TodoList className="capa" />
-                </div>
+                </div> */}
 
             </div>
         );
