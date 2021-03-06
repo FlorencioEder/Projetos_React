@@ -27,15 +27,6 @@ header strong:hover{
 	width: 100%;
 }
 
-.container .menu{
-	width: 20%;
-	justify-content: center;
-	align-items: center;
-	position: left;
-	box-align: left;
-
-}
-
 .post{
 	display: flex;
 	flex-direction: column;

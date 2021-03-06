@@ -1,7 +1,7 @@
 .menu{
     height: 100%;
+    width: 20%;
     overflow: auto;
-
 
     align-items: left;
     justify-content: left;

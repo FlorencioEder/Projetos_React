@@ -17,8 +17,8 @@ const Routs = () => {
 		<div>
 			<BrowserRouter>
 				<Cabecalho />
-				<Sidebar />
 				<div className="conteiner">
+					<Sidebar />
 					<Switch>
 						<Route exact path="/" component={Home}/>
 						<Route exact path="/listafilmes" component={ListaFilmes}/>
