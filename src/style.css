@@ -22,15 +22,25 @@ header strong:hover{
 .container{
 	display: flex;
 	flex-direction: column;
-	width: 100%;
 	justify-content: center;
 	align-items: center;
+	width: 100%;
+}
+
+.container .menu{
+	width: 20%;
+	justify-content: center;
+	align-items: center;
+	position: left;
+	box-align: left;
+
 }
 
 .post{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 	max-width: 600px;
 	background-color: #fff;
 	border-width: 1px;
@@ -70,7 +80,7 @@ header strong:hover{
 	margin: 10px;
 }
 
-.botao:hover{
+.post .botao:hover{
 	background: #0057da;
 	color: #FFF;
 	transition: all 0.5s;
@@ -96,15 +106,3 @@ header strong:hover{
 	margin: 10px;
 }
 
-.lista{
-	display: row;
-	justify-content: center;
-	align-items: center;
-	text-align: left;
-}
-
-.itemlista{
-	color: #0057da;
-	font-size: 20px;
-	font-weight: bold;
-}

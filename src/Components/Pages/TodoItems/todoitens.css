@@ -1,0 +1,12 @@
+.lista{
+	display: row;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+}
+
+.itemlista{
+	color: #0057da;
+	font-size: 20px;
+	font-weight: bold;
+}

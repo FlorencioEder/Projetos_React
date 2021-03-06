@@ -31,7 +31,7 @@ class Biscoito extends Component {
 
     render() {
         return (
-            <div className="container">
+            <div className="post">
                 <img src={require('../assets/biscoito.png')} className="img" />
                 <Botao nome="Abrir biscoito" acaoBtn={this.quebraBiscoito} />
                 <h3 className="textoFrase">{this.state.textoFrase}</h3>
@@ -43,7 +43,7 @@ class Biscoito extends Component {
 class Botao extends Component { //botao generico que recebe uma acao e um "nome" para o botao
     render() {
         return (
-            <div className="post">
+            <div>
                 <strong className="titulo">Biscoito da sorte</strong>
                 <p className="subtitulo">Esta com sorte hoje?<br />Abra um de nossos maravilhosos
                 biscoitos da sorte e encontre uma mensagem motivadora para seu dia.</p>

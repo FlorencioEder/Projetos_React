@@ -51,7 +51,7 @@ class Cronometro extends Component {
 
 	render() {
 		return (
-			<div className="container">
+			<div className="post">
 				<img src={cronometro} className="img" />
 				<a className="timer">{this.state.numero.toFixed(1)}</a>  {/*valor dentro do cronometro*/}
 				<div className="areaBtn">

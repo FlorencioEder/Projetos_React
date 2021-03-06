@@ -42,7 +42,7 @@ class TodoList extends Component {
     render() {
         return (
             <div>
-                <form className="container" onSubmit={this.addItem}>
+                <form className="post" onSubmit={this.addItem}>
                     <input className="inputtext" type="text" placeholder="Nova Tarefa?" name="tarefa" value={this.state.tarefa} onChange={(ev) => this.setState({ tarefa: ev.target.value })} ref={(event) => this._tarefaInput = event} />
                     <button className="botao" type="submit">
                         Adicionar

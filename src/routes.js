@@ -1,22 +1,38 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import Cabecalho from './Components/Cabecalho';
-
+import Sidebar from './Components/Side Bar';
 import Home from './Components/Pages/Home';
-import Filme from './Components/Pages/Filme';
+
+import ListaFilmes from './Components/Pages/Lista Filmes';
 import Erro from './Components/Pages/Erro';
 
+import Filme from './Components/Pages/Filme';
+import Biscoito from './Components/Pages/Biscoito';
+import Cronometro from './Components/Pages/Cronometro';
+import TodoList from './Components/Pages/TodoList';
 
 const Routs = () => {
 	return (
-		<BrowserRouter>
-			<Cabecalho />
-			<Switch>
-				<Route exact path="/" component={Home}/>
-				<Route exact path="/filme/:id" component={Filme}/>
-				<Route path="*" component={Erro}/>
-			</Switch>
-		</BrowserRouter>
+		<div>
+			<BrowserRouter>
+				<Cabecalho />
+				<Sidebar />
+				<div className="conteiner">
+					<Switch>
+						<Route exact path="/" component={Home}/>
+						<Route exact path="/listafilmes" component={ListaFilmes}/>
+						<Route exact path="/filme/:id" component={Filme}/>
+						
+						<Route exact path="/biscoito" component={Biscoito}/>
+						<Route exact path="/cronometro" component={Cronometro}/>
+						<Route exact path="/todoList" component={TodoList}/>
+
+						<Route path="*" component={Erro}/>
+					</Switch>
+				</div>
+			</BrowserRouter>
+		</div>
 	)
 
 }

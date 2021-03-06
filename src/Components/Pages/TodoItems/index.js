@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './todoitens.css';
 
 class TodoItems extends Component {
 
@@ -15,7 +16,7 @@ class TodoItems extends Component {
 
     render() {
         return (
-            <div className="container">
+            <div className="post">
                 <ul className="lista">
                     {this.props.lista.map((item) => { // mapeia a lista e cria os itens
                         return (
