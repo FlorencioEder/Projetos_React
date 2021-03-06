@@ -1,3 +1,7 @@
+body{
+	background-color: #ddd;
+}
+
 header{
 	display: flex;
 	justify-content: center;
@@ -28,25 +32,25 @@ header strong:hover{
 	flex-direction: column;
 	justify-content: center;
 	max-width: 600px;
-	background-color: rgb(116, 188, 255);
+	background-color: #fff;
 	border-width: 1px;
 	border-radius: 7px;
 	margin: 15px;
 	padding: 10px;
 }
 
-.titulo{
+.post .titulo{
 	font-size: 25px;
 	margin-bottom: 25px;
 	margin-top: 10px;
 	color: #000;
 }
 
-.subtitulo{
+.post .subtitulo{
 	margin: 5px;
 }
 
-.botao{
+.post .botao{
 	height: 40px;
 	width: 150px;
 	background: none;
@@ -76,7 +80,7 @@ header strong:hover{
 .inputtext{
 	height: 40px;
 	width: 80%;
-	background-color: #ffffff67;
+	background-color: #fff;
 	border-radius: 5px;
 	padding: 5px;
 	margin-left: 15px;

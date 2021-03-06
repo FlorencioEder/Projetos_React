@@ -43,8 +43,13 @@ class Biscoito extends Component {
 class Botao extends Component { //botao generico que recebe uma acao e um "nome" para o botao
     render() {
         return (
-            <div>
-                <button className="botao" onClick={this.props.acaoBtn} >{this.props.nome}</button>
+            <div className="post">
+                <strong className="titulo">Biscoito da sorte</strong>
+                <p className="subtitulo">Esta com sorte hoje?<br />Abra um de nossos maravilhosos
+                biscoitos da sorte e encontre uma mensagem motivadora para seu dia.</p>
+                <div className="capa" >
+                    <button className="botao" onClick={this.props.acaoBtn} >{this.props.nome}</button>
+                </div>
             </div>
         );
     }

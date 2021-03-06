@@ -33,7 +33,7 @@ class App extends Component {
                     <Biscoito className="capa" />
                 </div>
 
-                <div className="post">
+                <div>
                     <strong className="titulo">Cronometro</strong>
                     <p className="subtitulo">Quanto tempo voce demora para resolver um cubo magigo?
                     Como assim voce nao sabe?<br />Aproveite este cronometro para descobrir, estamos

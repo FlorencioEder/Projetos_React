@@ -1,0 +1,26 @@
+.lista-filmes{
+    margin:15px;
+}
+
+.lista-filmes strong{
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+img{
+  max-height: 350px;
+  width: 100%;  
+}
+
+.lista-filmes article a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 25px;
+    background-color: #0057da;
+    width: 100%;
+    height: 40px;
+    margin-top: -30px;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; 
+}
