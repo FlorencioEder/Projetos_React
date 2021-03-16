@@ -31,7 +31,7 @@ class ListaFilmes extends Component{
 
 	render(){
 		return(
-			<div className="lista-filmes">
+			<div className="post lista-filmes">
 				{ this.state.filmes.map((filme) => {
 					return(
 						<article key={filme.id} className="post">

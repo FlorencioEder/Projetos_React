@@ -1,11 +1,11 @@
 .menu{
-    height: 100%;
+    min-height: 100%;
     width: 20%;
     overflow: auto;
 
     align-items: left;
     justify-content: left;
-    background-color: #0057da;
+    background-color: #00183d;
 }
 
 .menu a{
@@ -16,8 +16,7 @@
     transition: all 0.5s;
 }
 .menu a:hover{
-    background: #0057da;
-    color: #000;
+    color: #0057da;
     transition: all 0.5s;
 }
 .menu ul {

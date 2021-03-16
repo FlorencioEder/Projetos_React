@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+import './style.css';
 import Cabecalho from './Components/Cabecalho';
 import Sidebar from './Components/Side Bar';
 import Home from './Components/Pages/Home';
@@ -17,7 +18,7 @@ const Routs = () => {
 		<div>
 			<BrowserRouter>
 				<Cabecalho />
-				<div className="conteiner">
+				<div className="container">
 					<Sidebar />
 					<Switch>
 						<Route exact path="/" component={Home}/>

@@ -1,5 +1,5 @@
 .lista-filmes{
-    margin:15px;
+    width: 90%;
 }
 
 .lista-filmes strong{
@@ -23,4 +23,8 @@ img{
     text-align: center;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px; 
+}
+
+.lista-filmes article{
+    min-width: 100%;
 }
